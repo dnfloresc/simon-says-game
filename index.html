@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Simon says</title>
+</head>
+<body>
+  <h1>Simon Says</h1>
+  <div class="container">
+    <div class="gameboard">
+      <div id="blue" class="color blue left" data-color="blue"></div>
+      <div id="yellow" class="color yellow right" data-color="yellow"></div>
+      <div id="green" class="color green left" data-color="green"></div>
+      <div id="red" class="color red right" data-color="red"></div>
+      <button id="btnPlay" class="btn-start" onclick="startGame()">Start game!</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
